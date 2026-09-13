@@ -1,0 +1,21 @@
+{
+	"name": "mnemic",
+	"version": "0.2.2",
+	"description": "Long-term memory for Claude: what you tell it, kept as dated facts in one local SQLite file and recalled before it answers.",
+	"author": {
+		"name": "Marcus Hirt",
+		"url": "https://www.hirt.se"
+	},
+	"homepage": "https://github.com/thegreystone/mnemic",
+	"repository": "https://github.com/thegreystone/mnemic",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"memory",
+		"recall",
+		"remember",
+		"facts",
+		"knowledge",
+		"local-first"
+	],
+	"mcpServers": "./mnemic.mcpb"
+}

@@ -64,6 +64,35 @@
 				"triage",
 				"drafts"
 			]
+		},
+		{
+			"name": "mnemic",
+			"source": "./mnemic",
+			"description": "A memory for Claude that lasts: what you tell it is kept as dated facts in one SQLite file on your own machine and recalled in every later conversation. Facts carry when they were true, corrections keep their history, and open questions are put to you instead of guessed. No account, no service. Native binary for macOS (Apple Silicon) and Windows; no Java needed.",
+			"version": "0.2.2",
+			"author": {
+				"name": "Marcus Hirt",
+				"url": "https://www.hirt.se"
+			},
+			"homepage": "https://github.com/thegreystone/mnemic",
+			"repository": "https://github.com/thegreystone/mnemic",
+			"license": "BSD-3-Clause",
+			"category": "productivity",
+			"tags": [
+				"memory",
+				"recall",
+				"knowledge",
+				"local-first",
+				"privacy"
+			],
+			"keywords": [
+				"memory",
+				"remember",
+				"recall",
+				"facts",
+				"notes",
+				"knowledge"
+			]
 		}
 	]
 }

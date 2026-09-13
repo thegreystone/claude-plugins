@@ -34,10 +34,11 @@ the IMAP and SMTP server, username and password of one account; passwords go to 
 For `rpg-mcp` it is only the campaign data directory, `~/.rpg-mcp` by default.
 
 The bundles are committed here rather than linked, because Claude Desktop only accepts plugins whose MCP bundle
-is part of the reviewed marketplace content. To pick up new releases, run `scripts/update-to-latest.sh`
-(or `scripts/update-to-latest.sh --check` to only see what is behind) and commit the result. It finds the
-latest release of each project and calls `scripts/update-bundle.sh <plugin> <version>` for every plugin that
-is out of date; that script can also be run by hand to pin a specific version.
+is part of the reviewed marketplace content. To pick up new releases, build the tool once with `mvn package` and run
+`java -jar target/claude-plugins-tools.jar update` (or `update --check` to only see what is behind) and commit
+the result. It asks GitHub for the latest release of each project and installs the bundle of every plugin
+that is out of date; `java -jar target/claude-plugins-tools.jar install <plugin> <version>` does the same for
+one plugin and a specific release. `mvn spotless:apply` formats the Java sources and the plugin manifests.
 
 ## License
 

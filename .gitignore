@@ -14,11 +14,8 @@
 Thumbs.db
 desktop.ini
 
-# Python (scripts/)
-__pycache__/
-*.py[cod]
-.venv/
-venv/
+# Maven
+target/
 
 # Logs and temp
 *.log

@@ -1,21 +1,21 @@
 {
-  "name": "rpg-mcp",
-  "version": "0.1.5",
-  "description": "Persistent, rules-aware RPG Game Master engine (SRD 5.2.1). Adds /rpg to start or continue a campaign.",
-  "author": {
-    "name": "Marcus Hirt",
-    "url": "https://www.hirt.se"
-  },
-  "homepage": "https://github.com/thegreystone/rpg-mcp",
-  "repository": "https://github.com/thegreystone/rpg-mcp",
-  "license": "BSD-3-Clause",
-  "keywords": [
-    "rpg",
-    "dungeon-master",
-    "5e",
-    "srd",
-    "dice",
-    "adventure"
-  ],
-  "mcpServers": "./rpg-mcp-server.mcpb"
+	"name": "rpg-mcp",
+	"version": "0.1.5",
+	"description": "Persistent, rules-aware RPG Game Master engine (SRD 5.2.1). Adds /rpg to start or continue a campaign.",
+	"author": {
+		"name": "Marcus Hirt",
+		"url": "https://www.hirt.se"
+	},
+	"homepage": "https://github.com/thegreystone/rpg-mcp",
+	"repository": "https://github.com/thegreystone/rpg-mcp",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"rpg",
+		"dungeon-master",
+		"5e",
+		"srd",
+		"dice",
+		"adventure"
+	],
+	"mcpServers": "./rpg-mcp-server.mcpb"
 }

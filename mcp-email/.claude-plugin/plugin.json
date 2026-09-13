@@ -1,0 +1,14 @@
+{
+  "name": "mcp-email",
+  "version": "1.0.13",
+  "description": "Your mailbox as tools for Claude: read, search, triage, file and draft email over IMAP and SMTP. Sending and permanent deletion are off by default. Native binary for macOS (Apple Silicon) and Windows; no Java needed.",
+  "author": {
+    "name": "Marcus Hirt",
+    "url": "https://www.hirt.se"
+  },
+  "homepage": "https://github.com/thegreystone/mcp-email",
+  "repository": "https://github.com/thegreystone/mcp-email",
+  "license": "BSD-3-Clause",
+  "keywords": ["email", "imap", "smtp", "mail", "inbox", "triage"],
+  "mcpServers": "./mcp-email-server.mcpb"
+}

@@ -1,6 +1,6 @@
 # hirt-plugins
 
-Marcus Hirt's Claude plugin marketplace. Works in both Claude Code and Claude Desktop.
+My Claude plugin marketplace. Works in both Claude Code and Claude Desktop.
 
 ## Add the marketplace
 

@@ -1,6 +1,6 @@
 {
   "name": "rpg-mcp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Turn Claude into a Game Master: a persistent, rules-aware RPG engine (SRD 5.2.1) that owns the truth of a campaign in a local database so it can run for years across conversations. Adds /rpg to start or continue a campaign.",
   "author": {
     "name": "Marcus Hirt",
@@ -10,5 +10,5 @@
   "repository": "https://github.com/thegreystone/rpg-mcp",
   "license": "BSD-3-Clause",
   "keywords": ["rpg", "dungeon-master", "5e", "srd", "dice", "adventure"],
-  "mcpServers": "https://github.com/thegreystone/rpg-mcp/releases/download/v0.1.4/rpg-mcp-server-0.1.4-universal.mcpb"
+  "mcpServers": "./rpg-mcp-server.mcpb"
 }

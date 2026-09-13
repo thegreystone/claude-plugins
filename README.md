@@ -17,7 +17,7 @@ My Claude plugin marketplace. Works in both Claude Code and Claude Desktop.
 
 | Plugin                   | What it does                                                                                                                                                                                                    | Install                                  |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| [`rpg-mcp`](rpg-mcp)     | Turns Claude into a Dungeoun Master: a persistent, rules-aware RPG engine (SRD 5.2.1) whose campaigns live in a local database and can run for years across conversations. Adds `/rpg new` and `/rpg continue`. | `/plugin install rpg-mcp@hirt-plugins`   |
+| [`rpg-mcp`](rpg-mcp)     | Turns Claude into a Dungeon Master: a persistent, rules-aware RPG engine (SRD 5.2.1) whose campaigns live in a local database and can run for years across conversations. Adds `/rpg new` and `/rpg continue`. | `/plugin install rpg-mcp@hirt-plugins`   |
 | [`mcp-email`](mcp-email) | Your mailbox as tools for Claude: read, search, triage, file and draft email over IMAP and SMTP, with several named accounts from one server. Sending and permanent deletion are off by default.                | `/plugin install mcp-email@hirt-plugins` |
 
 Each plugin ships a copy of the universal MCP Bundle from the matching release of its project, committed

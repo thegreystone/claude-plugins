@@ -1,7 +1,7 @@
 {
   "name": "rpg-mcp",
   "version": "0.1.5",
-  "description": "Turn Claude into a Game Master: a persistent, rules-aware RPG engine (SRD 5.2.1) that owns the truth of a campaign in a local database so it can run for years across conversations. Adds /rpg to start or continue a campaign.",
+  "description": "Persistent, rules-aware RPG Game Master engine (SRD 5.2.1). Adds /rpg to start or continue a campaign.",
   "author": {
     "name": "Marcus Hirt",
     "url": "https://www.hirt.se"

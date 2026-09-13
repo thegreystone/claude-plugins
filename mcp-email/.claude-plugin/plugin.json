@@ -9,6 +9,13 @@
   "homepage": "https://github.com/thegreystone/mcp-email",
   "repository": "https://github.com/thegreystone/mcp-email",
   "license": "BSD-3-Clause",
-  "keywords": ["email", "imap", "smtp", "mail", "inbox", "triage"],
+  "keywords": [
+    "email",
+    "imap",
+    "smtp",
+    "mail",
+    "inbox",
+    "triage"
+  ],
   "mcpServers": "./mcp-email-server.mcpb"
 }

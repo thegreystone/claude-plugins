@@ -9,6 +9,13 @@
   "homepage": "https://github.com/thegreystone/rpg-mcp",
   "repository": "https://github.com/thegreystone/rpg-mcp",
   "license": "BSD-3-Clause",
-  "keywords": ["rpg", "dungeon-master", "5e", "srd", "dice", "adventure"],
+  "keywords": [
+    "rpg",
+    "dungeon-master",
+    "5e",
+    "srd",
+    "dice",
+    "adventure"
+  ],
   "mcpServers": "./rpg-mcp-server.mcpb"
 }

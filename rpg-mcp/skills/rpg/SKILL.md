@@ -18,14 +18,14 @@ Argument given: `$ARGUMENTS`
    `get_server_state` tool instead; every response carries the harness state and the allowed operations, and
    the server guides you turn by turn.
 2. **Decide what the player wants:**
-   - `new` (or "start", "new campaign"): run the campaign setup interview as the guide describes — one
-     decision per turn, every option listed with its meaning, a custom answer where allowed, and
-     "surprise me" as a valid answer to nearly every creative question.
-   - `continue` (or "resume", or no argument when campaigns exist): call `get_server_state`, offer the
-     existing campaigns if there are several, open the chosen one and call `bootstrap_session`. Then recap
-     where the party is and what was happening, in a few sentences, and resume play.
-   - No argument and no campaigns: treat it as `new`.
-   - Anything else: treat it as the player's opening request inside the campaign they last played.
+    - `new` (or "start", "new campaign"): run the campaign setup interview as the guide describes — one
+      decision per turn, every option listed with its meaning, a custom answer where allowed, and
+      "surprise me" as a valid answer to nearly every creative question.
+    - `continue` (or "resume", or no argument when campaigns exist): call `get_server_state`, offer the
+      existing campaigns if there are several, open the chosen one and call `bootstrap_session`. Then recap
+      where the party is and what was happening, in a few sentences, and resume play.
+    - No argument and no campaigns: treat it as `new`.
+    - Anything else: treat it as the player's opening request inside the campaign they last played.
 3. **Play** by the guide's rules: never invent mechanical state, use the tools for every check, roll,
    trade and rest, keep tool machinery out of player-facing prose, and end a session with
    `suspend_session` when the player stops.

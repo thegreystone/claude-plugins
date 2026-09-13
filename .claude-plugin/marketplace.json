@@ -19,8 +19,21 @@
       "repository": "https://github.com/thegreystone/rpg-mcp",
       "license": "BSD-3-Clause",
       "category": "games",
-      "tags": ["rpg", "game-master", "dungeons-and-dragons", "srd", "campaign"],
-      "keywords": ["rpg", "dungeon-master", "5e", "dice", "adventure", "text-adventure"]
+      "tags": [
+        "rpg",
+        "game-master",
+        "dungeons-and-dragons",
+        "srd",
+        "campaign"
+      ],
+      "keywords": [
+        "rpg",
+        "dungeon-master",
+        "5e",
+        "dice",
+        "adventure",
+        "text-adventure"
+      ]
     },
     {
       "name": "mcp-email",
@@ -35,8 +48,22 @@
       "repository": "https://github.com/thegreystone/mcp-email",
       "license": "BSD-3-Clause",
       "category": "productivity",
-      "tags": ["email", "imap", "smtp", "inbox", "triage"],
-      "keywords": ["email", "mail", "imap", "smtp", "inbox", "triage", "drafts"]
+      "tags": [
+        "email",
+        "imap",
+        "smtp",
+        "inbox",
+        "triage"
+      ],
+      "keywords": [
+        "email",
+        "mail",
+        "imap",
+        "smtp",
+        "inbox",
+        "triage",
+        "drafts"
+      ]
     }
   ]
 }

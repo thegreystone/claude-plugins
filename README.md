@@ -1,6 +1,6 @@
 # hirt-plugins
 
-Marcus Hirt's Claude plugin marketplace. Works in both Claude Code and Claude Desktop.
+My Claude plugin marketplace. Works in both Claude Code and Claude Desktop.
 
 ## Add the marketplace
 
@@ -17,7 +17,7 @@ Marcus Hirt's Claude plugin marketplace. Works in both Claude Code and Claude De
 
 | Plugin | What it does | Install |
 |--------|--------------|---------|
-| [`rpg-mcp`](rpg-mcp) | Turns Claude into a Game Master: a persistent, rules-aware RPG engine (SRD 5.2.1) whose campaigns live in a local database and can run for years across conversations. Adds `/rpg new` and `/rpg continue`. | `/plugin install rpg-mcp@hirt-plugins` |
+| [`rpg-mcp`](rpg-mcp) | Turns Claude into a Dungeon Master: a persistent, rules-aware RPG engine (SRD 5.2.1) whose campaigns live in a local database and can run for years across conversations. Adds `/rpg new` and `/rpg continue`. | `/plugin install rpg-mcp@hirt-plugins` |
 
 The `rpg-mcp` plugin references the universal MCP Bundle of the matching
 [rpg-mcp release](https://github.com/thegreystone/rpg-mcp/releases): one download with native builds for
